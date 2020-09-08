@@ -24,7 +24,7 @@ public class DBInstance {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver" );
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/omnilyf",
-                            "root" ,"password Here");			
+                            "root" ,"Alemayehu1990!");			
 			System.out.print("Database connected");
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
